@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Current_Instance</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Current Instance</shortDescription>
+        <value>https://app-speed-7437-dev-ed.cs114.my.salesforce.com</value>
+    </labels>
+    <labels>
+        <fullName>Financial_Accounts_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Financial Accounts Error</shortDescription>
+        <value>Financial Account is not present in Salesforce, Please add the Financial Account and then add Transaction History.</value>
+    </labels>
+</CustomLabels>

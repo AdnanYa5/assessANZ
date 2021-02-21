@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>mohd.adnan58@gmail.com</contactEmail>
+    <label>Transactions Connected App</label>
+    <oauthConfig>
+        <callbackUrl>https://test.salesforce.com</callbackUrl>
+        <consumerKey>3MVG9iLRabl2Tf4iOwMM3PXdd9YZ.CzBI8cqcKxDoDLrYbErRdAPVZa_jv37UN_v09dvxVqPPgB4DQrTKEfpK</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <scopes>Api</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>
