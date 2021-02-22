@@ -24,7 +24,9 @@ public inherited sharing class AccountTriggerHandler {
     **********************************************************/
     public static void beforeInsertHandler(List<Account> newAccounts){
         for(Account acc: newAccounts){
-            if(acc.recordTypeId == CUSTOMER_ACCOUNT_RECORD_TYPE_ID){
+            //In the event of data loss upload the ABID field column from the external backed up system 
+            //So that the ABID is not newly created.
+            if(acc.recordTypeId == CUSTOMER_ACCOUNT_RECORD_TYPE_ID && acc.ABID__c == null){
                 acc.ABID__c = GenerateUniqueID.getUniqueId(GenerateUniqueIDConstants.ABID);
             }         
         }
